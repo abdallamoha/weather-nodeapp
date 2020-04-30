@@ -8,7 +8,6 @@ app.use(express.static(path.join(__dirname, '../public')))
 //app.set('view engine', 'hbs')
 const viewsPath = path.join(__dirname, '../template/views')
 const partialPath = path.join(__dirname, '../template/partials')
-
 app.set('view engine', 'hbs')//defining the templete egine tio be used
 app.set('views', viewsPath)//the path of the views directory.
 hbs.registerPartials(partialPath)
