@@ -12,7 +12,7 @@ weform.addEventListener('submit',(ev) => {
     console.log(location)
     message1.textContent = 'Loading...'
     message2.textContent = ''
-    let f =fetch('http://localhost:3000/weather?address=' + location).then((response) => {
+    let f =fetch('/weather?address=' + location).then((response) => {
         response.json().then((data) => {
             console.log(data)
             if(data.message){
