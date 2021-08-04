@@ -14,8 +14,8 @@ app.set('views', viewsPath)//the path of the views directory.
 hbs.registerPartials(partialPath)
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'home',
-        name: 'abdalla'
+        title: 'homee',
+        name: 'abdalla.'
     })
 
 })
