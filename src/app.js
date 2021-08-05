@@ -68,6 +68,6 @@ app.get('*', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('sever run.. ')
+    console.log('sever run.... ')
 })
 
