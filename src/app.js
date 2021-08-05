@@ -49,7 +49,7 @@ app.get('/weather', (req, res) => {
 
 
 
-let name = 'abdalla.'
+let name = 'abdalla..'
 app.get('/help/*', (req, res) => {
     res.render('404', {
         message: 'artical not found.',
